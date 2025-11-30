@@ -1,0 +1,43 @@
+{
+  "name": "school-next-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/elements": "^0.23.86",
+    "@clerk/nextjs": "^6.35.5",
+    "@hookform/resolvers": "^5.2.2",
+    "@prisma/client": "^7.0.1",
+    "@types/react-big-calendar": "^1.16.3",
+    "next": "^15.5.6",
+    "next-cloudinary": "^6.17.5",
+    "prisma": "^7.0.1",
+    "react": "^19.2.0",
+    "react-big-calendar": "^1.19.4",
+    "react-calendar": "^6.0.0",
+    "react-dom": "^19.2.0",
+    "react-hook-form": "^7.66.1",
+    "react-toastify": "^11.0.5",
+    "recharts": "^3.5.0",
+    "ts-node": "^10.9.2",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  },
+  "prisma": {
+    "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
+  }
+}
